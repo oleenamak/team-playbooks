@@ -63,7 +63,7 @@ Create one record per campaign, with linked tasks for individual deliverables.
 
 **Owner:** Marketing Lead
 
-Handoff to Marketing Lead to draft a brief using the `campaign-brief.md` template.
+Follow [campaign brief creation](campaign-brief-creation.md): voice intake → clarification/prototypes → intent confirmation → approved research scope → research → direction decisions → reviewed brief. Chief of Staff coordinates; Marketing Lead owns synthesis and brief drafting. Use the [brief template](../templates/campaign-brief.md). These are substeps inside Gate 1, not changes to later production gates.
 
 ### Gate 1 approval
 

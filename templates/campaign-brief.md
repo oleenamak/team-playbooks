@@ -1,17 +1,24 @@
 # Campaign Brief
 
-**Campaign name:** [Name]  
-**Campaign ID:** [ID]  
-**Status:** [Draft / Awaiting approval / Changes requested / Approved]  
-**Target launch date:** [Date]  
+**Campaign name:** [Name]
+**Campaign ID:** [ID]
+**Status:** [Draft / Awaiting approval / Changes requested / Approved]
+**Target launch date:** [Date]
 **End date:** [Date]
+
+## 0. Objective and decision
+
+**Parent initiative / owner:** [Links and person]
+**Business objective / why now:** [Outcome and motivation]
+**Decision or learning to unlock:** [What this campaign should establish]
+**Intent / research / decision links:** [Paths and versions]
 
 ## 1. Hypothesis
 
 We believe **[audience]** will **[take action]** when presented with **[offer / message]** through **[channel]**, because **[evidence or reasoning]**.
 
-**Offer:** [What value does the audience receive? Include relevant terms.]  
-**Primary CTA:** [One clear action]  
+**Offer:** [What value does the audience receive? Include relevant terms.]
+**Primary CTA:** [One clear action]
 **Destination / conversion path:** [Where the CTA leads and what happens next]
 
 ## 2. Target audience
@@ -31,8 +38,8 @@ Which ICP segment(s) are we targeting?
 | Guardrail         | [Cost, quality, or audience-impact limit] | [Value / unknown]  | [Limit] | [System / report] |
 
 
-**Measurement / attribution approach:** [Tracking links, events, CRM fields, attribution rules, or experiment setup]  
-**Evaluation date / window:** [When will we assess performance? Allow for conversion lag.]  
+**Measurement / attribution approach:** [Tracking links, events, CRM fields, attribution rules, or experiment setup]
+**Evaluation date / window:** [When will we assess performance? Allow for conversion lag.]
 **Decision criteria:**
 
 - **Scale if:** [Evidence required]
@@ -42,7 +49,7 @@ Which ICP segment(s) are we targeting?
 
 ## 4. Channels and distribution
 
-Where will this campaign be launched? 
+Where will this campaign be launched?
 
 
 | Channel   | Target Audience |
@@ -52,7 +59,7 @@ Where will this campaign be launched?
 
 ## 5. Key messages
 
-What's are the key messages you want people to takeaway or remember? 
+What's are the key messages you want people to takeaway or remember?
 
 
 | Angle        | Target audience | Message / hook |
@@ -71,8 +78,8 @@ What's are the key messages you want people to takeaway or remember?
 
 ## 7. References
 
-**Brand voice / copy guidance:** [Link]  
-**Visual assets:** [Logos, colors, fonts, imagery—links]  
+**Brand voice / copy guidance:** [Link]
+**Visual assets:** [Logos, colors, fonts, imagery—links]
 **Past campaigns / relevant learnings:** [Links and brief takeaways]
 
 
@@ -81,23 +88,31 @@ What's are the key messages you want people to takeaway or remember?
 | [Link / image] | [What I like or don't like] |
 
 
-## 9. Budget
+## 8. Budget
 
 - **Total:** $[Amount]
 - **Breakdown:** [How it's allocated]
 
-## 10. Open questions & assumptions
+## 9. Open questions & assumptions
 
 - [ ] [Question/Assumption]
+
+## 10. Experiment and feasibility
+
+- **Offer status:** [Established offer / untested hypothesis]
+- **What varies / stays stable:** [Test design]
+- **What this action can and cannot validate:** [Evidence limitations]
+- **Fulfillment / supported claims / audience exclusions:** [Details and sources]
+- **Dependencies / deadlines / capacity:** [Owners and constraints]
 
 ## Gate 1: brief approval
 
 Confirm that the audience, hypothesis, offer, success criteria, channel approach, deliverables, budget, and measurement plan are sufficiently defined to begin production.
 
-**Decision:** [Approved / Changes requested / Stopped]  
-**Approved version:** [Version / document link]  
-**Approver / date:** [Name / date]  
-**Feedback / conditions:** [Notes]  
+**Decision:** [Approved / Changes requested / Stopped]
+**Approved version:** [Version / document link]
+**Approver / date:** [Name / date]
+**Feedback / conditions:** [Notes]
 **Next action / owner:** [Action / name]
 
-*Brief approval authorizes production within the agreed scope. Launch authorization is recorded separately after the assets and launch setup are ready.*
+*Brief approval establishes the direction for Gate 2. Existing per-run production approval rules still apply. Launch and spend require separate authorization.*
