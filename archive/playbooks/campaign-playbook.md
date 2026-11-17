@@ -1,3 +1,7 @@
+> **Archived — 17 November 2026. Historical reference only; do not execute this as the current workflow.**
+>
+> The active workflow is [campaign brief creation](../../playbooks/campaign-brief-creation.md), covering intake through Gate 1 approval. Production workflows will be redesigned separately. Existing recorded approvals and the active [lead conventions](../../playbooks/CONVENTIONS.md) remain applicable; archiving this document does not authorize production or launch.
+
 # Campaign Playbook
 
 Version: 0.1 — working draft
@@ -63,7 +67,7 @@ Create one record per campaign, with linked tasks for individual deliverables.
 
 **Owner:** Marketing Lead
 
-Follow [campaign brief creation](campaign-brief-creation.md): voice intake → clarification/prototypes → intent confirmation → approved research scope → research → direction decisions → reviewed brief. Chief of Staff coordinates; Marketing Lead owns synthesis and brief drafting. Use the [brief template](../templates/campaign-brief.md). These are substeps inside Gate 1, not changes to later production gates.
+Follow [campaign brief creation](../../playbooks/campaign-brief-creation.md): voice intake → clarification/prototypes → intent confirmation → approved research scope → research → direction decisions → reviewed brief. Chief of Staff coordinates; Marketing Lead owns synthesis and brief drafting. Use the [brief template](../../templates/campaign-brief.md). These are substeps inside Gate 1, not changes to later production gates.
 
 ### Gate 1 approval
 

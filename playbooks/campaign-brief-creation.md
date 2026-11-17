@@ -1,6 +1,6 @@
 # Campaign brief creation
 
-Scope: rough idea through approved Gate 1 brief. This expands Gate 1; later production gates remain unchanged.
+Scope: rough idea through approved Gate 1 brief. This is the active campaign planning workflow. The previous end-to-end playbook is archived; production workflows will be redesigned separately. Existing lead conventions and recorded approvals remain applicable.
 
 ```text
 ┌──────────────────────────────────────────────────────────────────────────────────────────────────┐

@@ -9,7 +9,7 @@ Read [agent instructions](AGENTS.md), then follow [brief creation](playbooks/cam
 ## Playbooks
 
 - [`playbooks/CONVENTIONS.md`](playbooks/CONVENTIONS.md): rules every lead skill and playbook follows — hard rules, gate order, routing, defaults, skill format, and standard output contract.
-- [`playbooks/campaign-playbook.md`](playbooks/campaign-playbook.md): how a campaign moves from idea to approved launch to measured results, with roles and approval gates.
+- [`playbooks/campaign-brief-creation.md`](playbooks/campaign-brief-creation.md): active workflow from voice intake through an approved campaign brief. Production workflows will be defined separately.
 - [`playbooks/landing-pages.md`](playbooks/landing-pages.md): landing page conventions for gates 3-4 — section architecture, copy as source of truth, the 5-second phone test, and pre-ship checklist.
 
 ## Templates
@@ -21,3 +21,7 @@ Read [agent instructions](AGENTS.md), then follow [brief creation](playbooks/cam
 - [`templates/taste-loop.md`](templates/taste-loop.md): turn Oleena's corrections into gold examples and yes/no checks to run before sending work.
 
 Changes go through pull requests. Nothing merges without Oleena's approval.
+
+## Archive
+
+- [Previous campaign playbook](archive/playbooks/campaign-playbook.md): historical end-to-end process; excluded from active agent instructions.
