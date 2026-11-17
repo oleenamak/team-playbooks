@@ -2,26 +2,111 @@
 
 Scope: rough idea through approved Gate 1 brief. This expands Gate 1; later production gates remain unchanged.
 
-```mermaid
-flowchart TD
- A["Voice dump"] --> B["Capture and inspect available context"]
- B --> C["Clarify and pressure-test"]
- C --> D{"Prototype would help?"}
- D -->|Yes| E["Small internal prototype and reaction"]
- E --> C
- D -->|No| F["Oleena confirms intent"]
- F --> G["Propose methods, time and cost"]
- G --> H{"Research scope approved?"}
- H -->|Revise| G
- H -->|Yes| I["Internal and external research"]
- I --> J["Synthesize and recommend"]
- J --> K{"Ready for a bounded campaign?"}
- K -->|Targeted evidence gap| G
- K -->|Need concrete reaction| E
- K -->|Yes| L["Resolve choices and draft brief"]
- L --> M{"Gate 1 approved?"}
- M -->|Revise| L
- M -->|Yes| N["Record approved version and handoff"]
+```text
+┌──────────────────────────────────────────────────────────────────────────────────────────────────┐
+│                    CAMPAIGN BRIEF CREATION · voice dump to approved direction                    │
+├─ WORKSPACE · roles and tools ────────────────────────────────────────────────────────────────────┤
+│                                                                                                  │
+│  Chief of Staff   GrokBot on Mac · conversation, coordination, review queue                      │
+│  Marketing Lead   Research synthesis and final brief · CoS may cover this role                   │
+│  Research worker  Assigned internal / external evidence gathering                                │
+│  T3 Code          Optional worker environment · connection not yet verified                      │
+│  GitHub           Shared methods, templates and version history                                  │
+│  Campaign state   campaign-record.md · status, approvals, blockers, worker links                 │
+│                                                                                                  │
+├─ CONTEXT · use what exists; unknown stays unknown ───────────────────────────────────────────────┤
+│                                                                                                  │
+│  INTERNAL                                      │ EXTERNAL                                        │
+│  Brand, audience, offer, positioning           │ Customer discussions and reviews                │
+│  Previous campaigns and results                │ Competitor offers, pages and campaigns          │
+│  Existing decisions and constraints            │ Market evidence relevant to the decision        │
+│                                                                                                  │
+│  Private campaign data stays in approved private storage; this repo is public.                   │
+│                                                                                                  │
+├─ GATE 1 WORKFLOW · three human checkpoints ──────────────────────────────────────────────────────┤
+│                                                                                                  │
+│           ┌──────────────────────────────────────────────────────────────────────────┐           │
+│           │ 1  CAPTURE THE IDEA                                                      │           │
+│           │ Chief of Staff · voice dump                                              │           │
+│           │ Preserve rough thoughts; inspect relevant existing context.              │           │
+│           │ Output: intake.md                                                        │           │
+│           └──────────────────────────────────────────────────────────────────────────┘           │
+│                                                 │                                                │
+│                                                 ▼                                                │
+│           ┌──────────────────────────────────────────────────────────────────────────┐           │
+│           │ 2  CLARIFY + PRESSURE-TEST                                               │           │
+│           │ Chief of Staff + Oleena · campaign-discovery                             │           │
+│           │ Question goals, assumptions and gaps; recommend options.                 │           │
+│           │ Output: intent.md + decisions.md                                         │           │
+│           └──────────────────────────────────────────────────────────────────────────┘           │
+│                                                 │                                                │
+│                                                 ▼                                                │
+│           ┌──────────────────────────────────────────────────────────────────────────┐           │
+│           │ 3  CONFIRM INITIAL INTENT                                                │           │
+│           │ Oleena · checkpoint 1                                                    │           │
+│           │ Confirm goal, why, hypotheses, boundaries and open questions.            │           │
+│           │ Record: exact version + confirmation in campaign-record.md               │           │
+│           └──────────────────────────────────────────────────────────────────────────┘           │
+│                                                 │                                                │
+│                                                 ▼                                                │
+│           ┌──────────────────────────────────────────────────────────────────────────┐           │
+│           │ 4  SCOPE THE RESEARCH                                                    │           │
+│           │ Research worker + Chief of Staff · campaign-research                     │           │
+│           │ Propose questions, methods, sources, time and cost limits.               │           │
+│           │ Output: research/plan.md                                                 │           │
+│           │ Oleena · checkpoint 2: approve scope before research starts              │           │
+│           └──────────────────────────────────────────────────────────────────────────┘           │
+│                                                 │                                                │
+│                                                 ▼                                                │
+│           ┌──────────────────────────────────────────────────────────────────────────┐           │
+│           │ 5  GATHER + SYNTHESIZE EVIDENCE                                          │           │
+│           │ Research worker · campaign-research                                      │           │
+│           │ Review internal context and external sources; obey approved limits.      │           │
+│           │ Output: research/findings.md + research/summary.md                       │           │
+│           └──────────────────────────────────────────────────────────────────────────┘           │
+│                                                 │                                                │
+│                                                 ▼                                                │
+│           ┌──────────────────────────────────────────────────────────────────────────┐           │
+│           │ 6  RESOLVE THE DIRECTION                                                 │           │
+│           │ Marketing Lead / Chief of Staff + Oleena                                 │           │
+│           │ Recommend options and tradeoffs; choose a bounded campaign or test.      │           │
+│           │ Output: decisions.md · retain explicit testable assumptions              │           │
+│           └──────────────────────────────────────────────────────────────────────────┘           │
+│                                                 │                                                │
+│                                                 ▼                                                │
+│           ┌──────────────────────────────────────────────────────────────────────────┐           │
+│           │ 7  DRAFT + CHECK THE BRIEF                                               │           │
+│           │ Marketing Lead · campaign-brief                                          │           │
+│           │ Define audience, offer, messages, channels, budget and measurement.      │           │
+│           │ Output: brief.md + completed review checklist                            │           │
+│           └──────────────────────────────────────────────────────────────────────────┘           │
+│                                                 │                                                │
+│                                                 ▼                                                │
+│           ┌──────────────────────────────────────────────────────────────────────────┐           │
+│           │ 8  APPROVE + HAND OFF                                                    │           │
+│           │ Oleena · checkpoint 3: Gate 1 approval                                   │           │
+│           │ Review recommendation, evidence, unresolved choices and exact version.   │           │
+│           │ Record: approved brief version + next action / owner                     │           │
+│           └──────────────────────────────────────────────────────────────────────────┘           │
+│                                                                                                  │
+├─ PROTOTYPE + REVISE · throughout the planning conversation ──────────────────────────────────────┤
+│                                                                                                  │
+│  Unclear choice → small offer card, sample, outline or mock → Oleena reacts                      │
+│  Save in prototypes/; record what the reaction clarified in decisions.md.                        │
+│  Reaction shows preference, not customer demand. Respect per-run build approvals.                │
+│  New evidence changes intent → return to clarification and reconfirm.                            │
+│  Research gap → propose targeted scope → approval → additional research.                         │
+│  Brief changes requested → revise → check → return for approval.                                 │
+│                                                                                                  │
+├─ COMPLETION · approved brief, not production ────────────────────────────────────────────────────┤
+│                                                                                                  │
+│  Check   coherent objective / audience / offer; evidence; feasible test; owners;                 │
+│          measurement window; decision rules; time / budget; explicit uncertainty.                │
+│  Stop    research limits reached; missing access; material decision; approval needed.            │
+│  Handoff approved direction + deliverables + dependencies + exact input versions.                │
+│  Next    production workflows are separate; existing approvals still apply.                      │
+│                                                                                                  │
+└──────────────────────────────────────────────────────────────────────────────────────────────────┘
 ```
 
 ## Owners and outputs
