@@ -6,6 +6,7 @@ Workflows and templates for Oleena's team of leads (Chief of Staff, Marketing, C
 
 - [`playbooks/CONVENTIONS.md`](playbooks/CONVENTIONS.md): rules every lead skill and playbook follows — hard rules, gate order, routing, defaults, skill format, and standard output contract.
 - [`playbooks/campaign-playbook.md`](playbooks/campaign-playbook.md): how a campaign moves from idea to approved launch to measured results, with roles and approval gates.
+- [`playbooks/campaign-workflow.md`](playbooks/campaign-workflow.md): how the campaign workflow works today, with CBO-001 status and gaps marked Not yet.
 - [`playbooks/landing-pages.md`](playbooks/landing-pages.md): landing page conventions for gates 3-4 — section architecture, copy as source of truth, the 5-second phone test, and pre-ship checklist.
 
 ## Templates
