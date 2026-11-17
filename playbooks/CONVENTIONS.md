@@ -28,6 +28,13 @@ For landing page work at gates 3-4, see [`playbooks/landing-pages.md`](landing-p
 - **Heavy production work** goes to Claude Code on Oleena's Mac. Requires per-run approval. Defaults to `--model sonnet`.
 - **Builds** (landing pages, web assets, implementation) go to Engineer Lead.
 
+## Campaign naming
+
+- **Campaign:** `FY[YY]Q[1-4]-[Initiative]-[CampaignName]`, e.g. `FY26Q4-CBO-WaitlistTest`. FY = calendar year. Initiative is a short fixed code (CBO, ...). CampaignName is PascalCase, 1-3 words. No running number. Campaign names must be unique within a quarter and initiative. The campaign names the folder and the brief.
+- **Variation:** `[Campaign]-[VariationName]`, e.g. `FY26Q4-CBO-WaitlistTest-FoundingWaitlist`, `FY26Q4-CBO-WaitlistTest-Workshops`. Used for ads, landing pages, form records, and UTM tags.
+- **Optional segment suffix**, only when a variation targets a single segment: `...-Workshops-Owners`. Fixed list: Owners, Operators. Omit it for mixed audiences.
+- **Legacy:** CBO-001 keeps its existing name.
+
 ## Defaults
 
 These are sensible defaults. A lead may deviate with a one-line stated reason.

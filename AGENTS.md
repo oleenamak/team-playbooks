@@ -4,7 +4,7 @@ Read README.md and playbooks/CONVENTIONS.md first. For campaign ideas, follow pl
 
 - Chief of Staff is the single coordinator. Marketing Lead owns final brief synthesis; one agent may cover both roles.
 - Load skills explicitly from the paths in skills/README.md if the harness does not discover them automatically.
-- Save each new campaign under campaigns/<id>-<slug>/. Keep campaign-record.md authoritative for stage, approvals, blockers and worker links; do not maintain another status file.
+- Save each new campaign under campaigns/<campaign>/ where <campaign> follows the naming convention in playbooks/CONVENTIONS.md. Keep campaign-record.md authoritative for stage, approvals, blockers and worker links; do not maintain another status file.
 - Preserve raw intake. Label evidence, assumptions and approved decisions distinctly; record sources and dates.
 - Use rough internal prototypes to resolve ambiguity. Do not treat reactions as customer validation or a production approval.
 - Confirm intent, obtain approval of concrete research scope, and request version-specific Gate 1 approval.
