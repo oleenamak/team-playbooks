@@ -10,6 +10,7 @@ Read [agent instructions](AGENTS.md), then follow [brief creation](playbooks/cam
 
 - [`playbooks/CONVENTIONS.md`](playbooks/CONVENTIONS.md): rules every lead skill and playbook follows — hard rules, gate order, routing, defaults, skill format, and standard output contract.
 - [`playbooks/campaign-brief-creation.md`](playbooks/campaign-brief-creation.md): active workflow from voice intake through an approved campaign brief. Production workflows will be defined separately.
+- [`playbooks/campaign-workflow.md`](playbooks/campaign-workflow.md): how the campaign workflow works today, with CBO-001 status and gaps marked Not yet.
 - [`playbooks/landing-pages.md`](playbooks/landing-pages.md): landing page conventions for gates 3-4 — section architecture, copy as source of truth, the 5-second phone test, and pre-ship checklist.
 
 ## Templates
