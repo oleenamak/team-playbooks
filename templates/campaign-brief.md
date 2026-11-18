@@ -2,7 +2,12 @@
 
 **Campaign name:** [Name]
 **Campaign ID:** [ID]
+**Variations:** [Variation names]
+**Document version:** [Version]
 **Status:** [Draft / Awaiting approval / Changes requested / Approved]
+**Date:** [Date]
+**Author:** [Name]
+**Approver:** [Name]
 **Target launch date:** [Date]
 **End date:** [Date]
 
@@ -15,95 +20,112 @@
 
 ## 1. Hypothesis
 
-We believe **[audience]** will **[take action]** when presented with **[offer / message]** through **[channel]**, because **[evidence or reasoning]**.
+**Problem hypothesis:** We believe [problem statement].
 
-**Offer:** [What value does the audience receive? Include relevant terms.]
-**Primary CTA:** [One clear action]
-**Destination / conversion path:** [Where the CTA leads and what happens next]
+**Solution hypothesis:** We believe [solution statement].
+
+**Campaign hypothesis:** We believe [target audience and approach].
+
+This is a **[learning test / scale campaign]**.
 
 ## 2. Target audience
 
-Which ICP segment(s) are we targeting?
+- **Primary:** [Segment]. Hypothesis: [why they'd care].
+- **Secondary:** [Segment]. Hypothesis: [why they'd care].
 
-- **Primary:** [Segment]
-- **Secondary:** [Segment]
+**Exclusions:** [What's out of scope]
 
 ## 3. What success looks like
 
+[What success is in one sentence].
 
-| Measure           | Definition                                | Baseline, if known | Target  | Data source       |
-| ----------------- | ----------------------------------------- | ------------------ | ------- | ----------------- |
-| Primary KPI       | [Main success metric]                     | [Value / unknown]  | [Value] | [System / report] |
-| Supporting metric | [Metric]                                  | [Value / unknown]  | [Value] | [System / report] |
-| Guardrail         | [Cost, quality, or audience-impact limit] | [Value / unknown]  | [Limit] | [System / report] |
+| Measure           | Definition              | Baseline, if known | Target  | Data source       |
+| ----------------- | ----------------------- | ------------------ | ------- | ----------------- |
+| Primary KPI       | [Main success metric]   | [Value / unknown]  | [Value] | [System / report] |
+| Supporting metric | [Supporting metric]     | [Value / unknown]  | [Value] | [System / report] |
 
+**Measurement / attribution approach:**
 
-**Measurement / attribution approach:** [Tracking links, events, CRM fields, attribution rules, or experiment setup]
-**Evaluation date / window:** [When will we assess performance? Allow for conversion lag.]
+- [Tracking approach]
+- [Attribution rules]
+- [Data source of truth]
+
 **Decision criteria:**
 
 - **Scale if:** [Evidence required]
 - **Iterate if:** [Evidence required]
 - **Stop if:** [Evidence required]
-- **Inconclusive if:** [Insufficient data, tracking failure, or other limitations]
+- **Inconclusive if:** [Insufficient data or limitations]
 
 ## 4. Channels and distribution
 
-Where will this campaign be launched?
-
-
-| Channel   | Target Audience |
+| Channel   | Target audience |
 | --------- | --------------- |
 | [Channel] | [Segment]       |
+
+[What's out of scope]
 
 
 ## 5. Key messages
 
-What's are the key messages you want people to takeaway or remember?
+[Direction and brand rules].
+
+| Variation   | Target audience | Message / hook | CTA         |
+| ----------- | --------------- | -------------- | ----------- |
+| [Variation] | [Segment]       | [Message]      | [CTA text]  |
+
+[Note]
 
 
-| Angle        | Target audience | Message / hook |
-| ------------ | --------------- | -------------- |
-| A            | [segment]       | [Angle]        |
-| B, if needed | [segment]       | [Angle]        |
+## 6. Assets required
 
+Production starts only after Gate 1 approval of this brief (or a later approved revision). Launch and spend still need separate authorization.
 
-## 6. Assets Required
-
-
-| Deliverable | Description                                           | Owner  | Reviewer |
-| ----------- | ----------------------------------------------------- | ------ | -------- |
-| [Asset]     | [Requirements, angles, audiences, sizes, or versions] | [Name] | [Name]   |
+| Deliverable                  | Description                                                          | Owner          | Reviewer |
+| ---------------------------- | -------------------------------------------------------------------- | -------------- | -------- |
+| Landing page copy            | Gate 2. [Requirements].                                              | Marketing Lead | [Name]   |
+| Ad copy                      | Gate 3. Once landing page copy is approved. [Requirements].          | Marketing Lead | [Name]   |
+| Confirmation email copy      | Gate 3. Once landing page copy is approved. [Requirements].          | Marketing Lead | [Name]   |
+| Visual direction and assets  | Gate 3. [Requirements].                                              | Creative Lead  | [Name]   |
+| Build: pages, form, tracking | Gate 4. [Requirements].                                              | Engineer Lead  | [Name]   |
 
 
 ## 7. References
 
 **Brand voice / copy guidance:** [Link]
-**Visual assets:** [Logos, colors, fonts, imagery—links]
-**Past campaigns / relevant learnings:** [Links and brief takeaways]
+**Visual assets:** [Link]
+**Past campaigns / relevant learnings:** [Links and takeaways]
+**Intent / research:** [Links]
 
-
-| Reference      | Reference Notes             |
-| -------------- | --------------------------- |
-| [Link / image] | [What I like or don't like] |
+| Reference   | Reference notes |
+| ----------- | --------------- |
+| [Reference] | [Notes]         |
 
 
 ## 8. Budget
 
 - **Total:** $[Amount]
 - **Breakdown:** [How it's allocated]
+- **Target CPL:** [Target cost per lead]
 
 ## 9. Open questions & assumptions
 
-- [ ] [Question/Assumption]
+### Open questions
+
+Approver answers each question with an "[Approver initials]" sub-bullet.
+
+- [ ] [Question]
+  - [ ] [Approver response]
+
+### Assumptions
+
+- [ ] [Assumption]
 
 ## 10. Experiment and feasibility
 
-- **Offer status:** [Established offer / untested hypothesis]
-- **What varies / stays stable:** [Test design]
-- **What this action can and cannot validate:** [Evidence limitations]
-- **Fulfillment / supported claims / audience exclusions:** [Details and sources]
+- **Fulfillment / supported claims / exclusions:** [Details]
 - **Dependencies / deadlines / capacity:** [Owners and constraints]
+- **Feasibility:** [Launch readiness and blockers]
 
 ## Gate 1: brief approval
 

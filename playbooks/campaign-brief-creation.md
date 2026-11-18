@@ -137,7 +137,7 @@ Use the discovery, research and brief skills in skills/README.md. Assign actual 
 
 ## Campaign folder
 
-Use campaigns/<id>-<slug>/ with intake.md, intent.md, decisions.md, campaign-record.md, brief.md, research/{plan,findings,summary}.md and prototypes/ as needed. Create from templates only when the stage requires them; do not create blank placeholders unnecessarily. One parent issue can link this folder; it is an index, not a competing status record.
+Use campaigns/<campaign>/ where <campaign> follows the naming convention in playbooks/CONVENTIONS.md. Include intake.md, intent.md, decisions.md, campaign-record.md, brief.md, research/{plan,findings,summary}.md and prototypes/ as needed. Create from templates only when the stage requires them; do not create blank placeholders unnecessarily. One parent issue can link this folder; it is an index, not a competing status record.
 
 ## Approval packet
 
@@ -146,10 +146,10 @@ Present exact output paths/revisions, recommendation, evidence, unresolved choic
 ## Brief review checklist
 
 - Objective and learning decision are clear.
-- Audience, problem, offer, CTA and channel form a coherent journey.
+- Problem, solution, and campaign hypotheses are explicit.
+- Target audience, key messages and channel form a coherent journey.
 - Claims have evidence; uncertainty is labelled.
-- Experiment specifies what changes and what stays stable.
-- Primary metric, qualification, data source, evaluation window and decision rules are explicit.
+- Primary metric, qualification, data source and decision rules are explicit.
 - Clicks/signups/purchases are interpreted at their actual evidentiary strength.
 - Deliverables, owners, dependencies, time and budget are feasible.
 - Sources, major decisions and prototype feedback are linked.
