@@ -22,6 +22,10 @@ Read [agent instructions](AGENTS.md), then follow [brief creation](playbooks/cam
 
 Changes go through pull requests. Nothing merges without Oleena's approval.
 
+## Docs
+
+- [`docs/ai-toolkit.md`](docs/ai-toolkit.md): the AI tools Oleena uses right now, by job, and the ones she's still testing.
+
 ## Archive
 
 - [Previous campaign playbook](archive/playbooks/campaign-playbook.md): historical end-to-end process; excluded from active agent instructions.
